@@ -1,5 +1,7 @@
 package personnages;
 
+import javax.management.remote.SubjectDelegationPermission;
+
 public class Humain {
 	private String nom;
 	private String boissonFav;
@@ -48,5 +50,9 @@ public class Humain {
 			perdreArgent(prix);
 		}
 		parler(texte);
+	}
+
+	public Humain() {
+		super();
 	}
 }
