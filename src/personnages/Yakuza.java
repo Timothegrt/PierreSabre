@@ -1,7 +1,5 @@
 package personnages;
 
-import javax.management.monitor.MonitorNotification;
-
 public class Yakuza extends Humain{
 	private String clan;
 	private int reputation=0;
@@ -16,6 +14,7 @@ public class Yakuza extends Humain{
 		int montantVole = commercant.seFaireExtorquer();
 		argent+=montantVole;
 		parler("J'ai piqué les "+montantVole+" sous de "+commercant.getNom()+", ce qui me fait "+argent+" sous dans ma poche. Hi ! Hi !");
+		reputation+=1;
 		
 	}
 	
