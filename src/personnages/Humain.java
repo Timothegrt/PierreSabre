@@ -1,19 +1,21 @@
 package personnages;
 
-import javax.management.remote.SubjectDelegationPermission;
-
 public class Humain {
-	private String nom;
-	private String boissonFav;
-	private int argent;
+	protected String nom;
+	protected String boissonFav;
+	protected int argent;
 	
 	public Humain(String nom, String boissonFav, int argent) {
-		super();
+//		super()
 		this.nom = nom;
 		this.boissonFav = boissonFav;
 		this.argent = argent;
 	}
 	
+	public void setArgent(int argent) {
+		this.argent = argent;
+	}
+
 	public String getNom() {
 		return nom;
 	}
