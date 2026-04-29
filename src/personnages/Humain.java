@@ -73,10 +73,6 @@ public class Humain {
 			}
 			memoire[nbConnaissance-1]=humain;
 		}
-		System.out.println("---memoire---");
-		for (int i = 0; i < nbConnaissance; i++) {
-			System.out.println(memoire[i].getNom());
-		}
 	}
 	
 	private void repondre(Humain humain) {
