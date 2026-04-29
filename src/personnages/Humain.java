@@ -88,5 +88,6 @@ public class Humain {
 		texte+=".";
 		parler(texte);
 	}
+
 	
 }
