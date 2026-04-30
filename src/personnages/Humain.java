@@ -62,7 +62,7 @@ public class Humain {
 		memoriser(autreHumain);
 	}
 	
-	private void memoriser(Humain humain) {
+	protected void memoriser(Humain humain) {
 		if (nbConnaissance<30) {
 			memoire[nbConnaissance]=humain;
 			nbConnaissance++;
