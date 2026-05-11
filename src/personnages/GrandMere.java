@@ -28,7 +28,7 @@ public class GrandMere extends Humain {
 	
 	private String humainHasard() {
 		Random r = new Random();
-		TypeHumain type = types[r.nextInt(5)];
+		TypeHumain type = types[r.nextInt(7)];
 		switch (type) {
 		case COMMERCANT: {
 			return "un commercant";
